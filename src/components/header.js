@@ -1,3 +1,5 @@
+import './header.css'
+
 export default function Header(props) {
     return(
         <header className="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
