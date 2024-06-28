@@ -41,9 +41,6 @@ export default function Home() {
                                                 <div className="white-button first-button scroll-to-section">
                                                     <a href="">Get Satarted !</a>
                                                 </div>
-                                                <div className="white-button scroll-to-section">
-                                                    <a href="">Read More !</a>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
