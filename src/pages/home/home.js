@@ -157,7 +157,7 @@ export default function Home() {
                 <div className="row">
                     <div className="col-lg-8 offset-lg-2">
                         <div className="section-heading">
-                            <h4>Join our mailing list to receive the news &amp; latest trends</h4>
+                            <h4>Getting Touch and retch more informations about our company</h4>
                         </div>
                     </div>
                 </div>
@@ -165,8 +165,9 @@ export default function Home() {
                     <div className="col-lg-3">
                         <div className="footer-widget">
                             <h4>Contact Us</h4>
-                            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-                            <p><a href="#">010-020-0340</a></p>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <p><a href="#">+98-21-000-0000-000</a></p>
+                            <p><a href="#">@company-socials</a></p>
                             <p><a href="#">info@company.co</a></p>
                         </div>
                     </div>
@@ -177,6 +178,8 @@ export default function Home() {
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">About</a></li>
+                                <li><a href="#">Refrence</a></li>
+                                <li><a href="#">Refrence</a></li>
                             </ul>
                         </div>
                     </div>
@@ -184,11 +187,11 @@ export default function Home() {
                         <div className="footer-widget">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li><a href="#">Free Apps</a></li>
-                                <li><a href="#">App Engine</a></li>
-                                <li><a href="#">Programming</a></li>
-                                <li><a href="#">Development</a></li>
-                                <li><a href="#">App News</a></li>
+                                <li><a href="#">Refrence</a></li>
+                                <li><a href="#">Refrence</a></li>
+                                <li><a href="#">Refrence</a></li>
+                                <li><a href="#">Refrence</a></li>
+                                <li><a href="#">Refrence</a></li>
                             </ul>
                         </div>
                     </div>
@@ -203,8 +206,8 @@ export default function Home() {
                     </div>
                     <div className="col-lg-12">
                         <div className="copyright-text">
-                            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
-                                <br />Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
+                            <p>Copyright © 2024 BigBnag Group. All Rights Reserved.
+                                 <br />Development : {/*<a href="https://ali-moghaddam.me" target="_blank" title="designer">Ali Moghaddam</a>*/} Ali Moghaddam</p>
                         </div>
                     </div>
                 </div>
