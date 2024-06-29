@@ -1,0 +1,378 @@
+/* ---------------------------------------------
+Table of contents
+------------------------------------------------
+01. banner
+02. Services
+03. about us
+--------------------------------------------- */
+
+
+/*
+---------------------------------------------
+Banner Style
+---------------------------------------------
+*/
+
+.main-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 250px 120px 150px 120px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-banner:after {
+    content: '';
+    background-image: url(../../../public/assets/images/slider-left-dec.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .main-banner .left-content {
+    margin-right: 15px;
+  }
+  
+  .main-banner .left-content h2 {
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    line-height: 70px;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .main-banner .left-content p {
+    margin-bottom: 45px;
+    color: #2a2a2a;
+    font-weight: 400;
+  }
+  
+  .main-banner .left-content .first-button {
+    margin-right: 15px;
+  }
+  
+  .main-banner .left-content .white-button {
+    display: inline-block;
+  }
+  
+  .main-banner .right-image {
+    text-align: center;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .main-banner .right-image img {
+    max-width: 710px;
+  }
+  
+  .main-banner .left-content .white-button a {
+    background-color: #4b8ef1;
+    color: #fff !important;
+  }
+  
+  /*
+  ---------------------------------------------
+  Services Style
+  ---------------------------------------------
+  */
+  
+  .services {
+    padding-top: 130px;
+    position: relative;
+  }
+  
+  .services  .section-heading p {
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+  
+  .services .container-fluid {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  
+  .services:after {
+    content: '';
+    background-image: url(../../../public/assets/images/services-left-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+    width: 261px;
+    height: 368px;
+    z-index: 0;
+    margin-bottom:50%;
+  }
+  
+  .services:before {
+    content: '';
+    background-image: url(../../../public/assets/images/services-right-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1136px;
+    height: 244px;
+    z-index: 0;
+  }
+  
+  .services .section-heading {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .services .section-heading .line-dec {
+    margin: 0 auto;
+  }
+  
+  .service-item {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    transition: all .3s;
+  }
+  
+  .service-item .icon {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    transition: all .3s;
+  }
+  
+  .service-item h4 {
+    transition: all .3s;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .service-item p {
+    transition: all .3s;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .service-item:hover h4,
+  .service-item:hover p,
+  .service-item:hover .text-button a {
+    color: #fff;
+  }
+  
+  .first-service .icon {
+    background-image: url(../../../public/assets/images/service-icon-01.png);
+  }
+  
+  .first-service:hover .icon {
+    background-image: url(../../../public/assets/images/service-icon-hover-01.png);
+  }
+  
+  .second-service .icon {
+    background-image: url(../../../public/assets/images/service-icon-02.png);
+  }
+  
+  .second-service:hover .icon {
+    background-image: url(../../../public/assets/images/service-icon-hover-02.png);
+  }
+  
+  
+  .third-service .icon {
+    background-image: url(../../../public/assets/images/service-icon-03.png);
+  }
+  
+  .third-service:hover .icon {
+    background-image: url(../../../public/assets/images/service-icon-hover-03.png);
+  }
+  
+  .fourth-service .icon {
+    background-image: url(../../../public/assets/images/service-icon-04.png);
+  }
+  
+  .fourth-service:hover .icon {
+    background-image: url(../../../public/assets/images/service-icon-hover-04.png);
+  }
+  
+  .service-item:hover {
+    background-image: url(../../../public/assets/images/service-bg.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  
+  /*
+  ---------------------------------------------
+  About Us
+  ---------------------------------------------
+  */
+  
+  .about-us {
+    padding-top: 130px;
+    position: relative;
+  }
+  
+  .about-us .section-heading {
+    margin-bottom: 45px;
+  }
+  
+  .about-us .section-heading,
+  .about-us .box-item,
+  .about-us p,
+  .about-us .box-item .gradient-button,
+  .about-us .box-item span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .about-us .box-item {
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.07);
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .about-us .box-item h4 a {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+    color: #2a2a2a;
+    transition: all .3s;
+  }
+  
+  .about-us .box-item p {
+    margin-bottom: 0px;
+  }
+  
+  .about-us .box-item:hover h4 a {
+    color: #4b8ef1;
+  }
+  
+  .about-us .gradient-button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us span {
+    font-size: 14px;
+    color: #7a7a7a;
+  }
+  
+  .about-us .right-image {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .about-us:after {
+    background-image: url(../../../public/assets/images/about-bg.jpg);
+    width: 777px;
+    height: 1132px;
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+  }
+  
+  
+  /*
+  ---------------------------------------------
+  Receipt :::::: it is used for applicatin
+  ---------------------------------------------
+  */
+  
+  /* .success-receipt {
+    top: 10%;
+    left: 10%;
+    position: relative;
+    background: #54d35425;
+    height: 50vh;
+    width: 80%;
+  }
+  
+  .success-receipt::before {
+    position: absolute;
+    content: '';
+    left: 24%;
+    z-index: 10;
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(-190%) translateY(-150%);
+    bottom: 0px;
+  }
+  
+  .success-receipt::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 10px;
+    background-size: 10px 100%;
+    background-image: linear-gradient(135deg, #54d35425 25%, transparent 25%), linear-gradient(225deg, #54d35425 25%, transparent 25%);
+    background-position: 0 0;
+  }
+  
+  .copy-btn:hover{
+    cursor: pointer;
+  }
+  
+  #connectedBtn:hover{
+    cursor: pointer;
+  }
+  
+  .failed-receipt {
+    top: 10%;
+    left: 10%;
+    position: relative;
+    background: #d3545425;
+    height: 50vh;
+    width: 80%;
+  }
+  
+  .failed-receipt::before {
+    position: absolute;
+    content: '';
+    left: 24%;
+    z-index: 10;
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(-190%) translateY(-150%);
+    bottom: 0px;
+  }
+  
+  .failed-receipt::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 10px;
+    background-size: 10px 100%;
+    background-image: linear-gradient(135deg, #d3545425 25%, transparent 25%), linear-gradient(225deg, #d3545425 25%, transparent 25%);
+    background-position: 0 0;
+  } */
