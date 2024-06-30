@@ -8,13 +8,13 @@ export default function Home() {
             {/****** Header Area Start ******/}
             < Header >
                 {/****** Menu Start ******/}
-                <ul class="nav">
-                    <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                    <li class="scroll-to-section"><a href="#loans">Expired Loans</a></li>
-                    <div class="gradient-button" id="connectedBtn" style="display: none;"><a id="connectButton" data-mdb-modal-init data-mdb-target="#walletModal"></a></div>
-                    <li id="modalBtn"><div class="gradient-button"><a id="modal_trigger" href="#modal">Connect with wallet <i class="fa fa-sign-in-alt"></i></a></div></li>
+                <ul className="nav">
+                    <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
+                    <li className="scroll-to-section"><a href="#loans">Expired Loans</a></li>
+                    <div className="gradient-button" id="connectedBtn" style="display: none;"><a id="connectButton" data-mdb-modal-init data-mdb-target="#walletModal"></a></div>
+                    <li id="modalBtn"><div className="gradient-button"><a id="modal_trigger" href="#modal">Connect with wallet <i className="fa fa-sign-in-alt"></i></a></div></li>
                 </ul>
-                <a class='menu-trigger'>
+                <a className="menu-trigger">
                     <span>Menu</span>
                 </a>
                 {/****** Menu Start ******/}
@@ -22,16 +22,16 @@ export default function Home() {
             {/****** Header Area End ******/}
 
             <Footer>
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="section-heading text-center">
+                <div className="row">
+                    <div className="col-lg-8 offset-lg-2">
+                        <div className="section-heading text-center">
                             <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, dolores.</h4>
-                            <button class="btn btn-primary" id="addTokenButton">Import BGBT</button>
+                            <button className="btn btn-primary" id="addTokenButton">Import BGBT</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <div class="copyright-text">
+                <div className="col-lg-12">
+                    <div className="copyright-text">
                         <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
                             <br/>Development: <a href="https://templatemo.com/" target="_blank" title="css templates">Ali Moghaddam</a></p>
                     </div>
